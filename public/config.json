@@ -1,42 +1,230 @@
 {
   "site": {
-    "logo": "https://vbjbybczjtauhyydlcya.supabase.co/storage/v1/object/public/logos//fav%20img.png",
-    "title": "Om Extrusion",
-    "description": "Professional Manufacturing services by Om Extrusion"
+    "logo": "",
+    "title": "Tera Brass",
+    "description": "Tera brass is the brass manufacturing company, eastablished in year 2004, we have tons of experience and globally 5 plants. we also have 60+ cnc machines. we produce brass parts used in precision components in aerospace. our usp is 24/7 plant operates. we work as manufacturing unit and also we have extursion plant. our target market b2b dealers."
   },
   "theme": {
-    "id": "creative",
+    "id": "creative-purple",
     "hero": {
       "layout": "split",
-      "textAlignment": "left",
-      "backgroundStyle": "gradient"
+      "backgroundType": "gradient"
     },
-    "name": "Creative",
+    "name": "Creative Purple",
     "colors": {
-      "text": "#1f2937",
-      "accent": "#06b6d4",
-      "primary": "#8b5cf6",
-      "secondary": "#7c3aed",
-      "background": "#f9fafb"
+      "text": "#111827",
+      "error": "#ef4444",
+      "muted": "#6b7280",
+      "accent": "#ec4899",
+      "border": "#e5e7eb",
+      "primary": "#7c3aed",
+      "success": "#10b981",
+      "warning": "#f59e0b",
+      "secondary": "#6b7280",
+      "background": "#ffffff"
     },
     "effects": {
-      "shadows": true,
+      "parallax": true,
       "gradients": true,
-      "animations": true
+      "animations": true,
+      "borderRadius": 12,
+      "shadowIntensity": "strong"
     },
-    "spacing": {
-      "content": "wide",
-      "section": "spacious"
-    },
+    "category": "creative",
     "navigation": {
-      "style": "solid",
-      "position": "fixed",
-      "background": "#1f2937"
+      "style": "glass",
+      "position": "top"
     },
-    "typography": {
-      "scale": "large",
-      "bodyFont": "Inter",
-      "headingFont": "Inter"
+    "description": "Vibrant and artistic with purple gradients"
+  },
+  "business": {
+    "name": "Tera Brass",
+    "email": "wefb2@kehg.com",
+    "phone": "+91 987989797",
+    "score": 70,
+    "industry": "Manufacturer",
+    "location": "jamnagar, Gujarat, India",
+    "isComplete": false,
+    "description": "Tera brass is the brass manufacturing company, eastablished in year 2004, we have tons of experience and globally 5 plants. we also have 60+ cnc machines. we produce brass parts used in precision components in aerospace. our usp is 24/7 plant operates. we work as manufacturing unit and also we have extursion plant. our target market b2b dealers.",
+    "missingInfo": [
+      "Business name",
+      "Clear industry or sector"
+    ],
+    "suggestions": [
+      "Provide a clear and specific business name",
+      "Clearly define the industry or sector the business operates in",
+      "Expand on the unique value proposition and competitive advantages beyond 24/7 operations",
+      "Highlight key capabilities, certifications, or specializations in the brass manufacturing industry"
+    ],
+    "hasExperience": true,
+    "hasUniqueValue": false,
+    "hasTargetMarket": true,
+    "hasClearActivities": true,
+    "enhancedDescription": "Tera Brass is a leading brass manufacturing company specializing in precision components for the aerospace industry. Established in 2004, the company operates 5 global plants with over 60 CNC machines, providing 24/7 manufacturing capabilities. Tera Brass is a trusted supplier of high-quality brass parts used in critical aerospace applications, with a focus on delivering exceptional service and reliability to its B2B dealer network."
+  },
+  "sections": {
+    "hero": {
+      "layout": "split",
+      "enabled": true,
+      "headline": "Precision Manufacturing Excellence",
+      "primaryCTA": {
+        "link": "#about",
+        "text": "Explore Our Capabilities"
+      },
+      "subheadline": "Tera Brass: Your Trusted Brass Components Supplier",
+      "secondaryCTA": {
+        "link": "#contact",
+        "text": "Contact Us"
+      },
+      "imagePosition": "left",
+      "backgroundImage": "https://images.unsplash.com/photo-1666618090858-fbcee636bd3e"
+    },
+    "about": {
+      "image": "",
+      "stats": [
+        {
+          "label": "Years of Experience",
+          "number": "18+"
+        },
+        {
+          "label": "Global Production Facilities",
+          "number": "5"
+        },
+        {
+          "label": "CNC Machines",
+          "number": "60+"
+        },
+        {
+          "label": "Plant Operations",
+          "number": "24/7"
+        }
+      ],
+      "title": "About Tera Brass",
+      "enabled": true,
+      "description": "Tera Brass is a leading brass manufacturing company, established in 2004 with a wealth of experience and five global production facilities. Specializing in the production of precision brass components for the aerospace industry, we operate 60+ CNC machines and run our plants 24/7 to ensure uninterrupted supply and consistent quality. As both a manufacturing unit and an extrusion plant, we cater to a diverse range of B2B dealers, delivering innovative solutions tailored to their specific needs."
+    },
+    "features": {
+      "items": [
+        {
+          "icon": "tool",
+          "title": "Precision Manufacturing",
+          "description": "Our state-of-the-art CNC machines and extrusion plant ensure precise, high-quality brass components for your needs."
+        },
+        {
+          "icon": "clock",
+          "title": "Uninterrupted Production",
+          "description": "With our 24/7 plant operations, we guarantee a reliable and consistent supply of brass parts to meet your deadlines."
+        },
+        {
+          "icon": "globe",
+          "title": "Global Reach",
+          "description": "Tera Brass has a worldwide presence, with five production facilities strategically located to serve customers globally."
+        },
+        {
+          "icon": "award",
+          "title": "Industry Expertise",
+          "description": "Our team of experienced professionals leverages decades of knowledge in the brass manufacturing industry."
+        }
+      ],
+      "title": "Our Key Features",
+      "enabled": true
+    },
+    "products": {
+      "enabled": true
+    },
+    "services": {
+      "items": [
+        {
+          "id": "service-1684758000000",
+          "icon": "Cpu",
+          "image": "https://images.unsplash.com/photo-1517476417505-41343cd4b6db?auto=format&fit=crop&q=80&w=600",
+          "title": "Rapid Prototyping and Custom Manufacturing",
+          "features": [
+            "Fast turnaround on custom brass parts",
+            "Precision manufacturing with tight tolerances",
+            "In-house design and engineering support",
+            "Cost-effective solutions for small-batch production",
+            "Dedicated project management"
+          ],
+          "description": "Leverage our state-of-the-art CNC machines and brass expertise to quickly create custom brass components and prototypes for your aerospace projects. Our rapid turnaround and attention to precision ensure you get high-quality parts on time, every time."
+        },
+        {
+          "id": "service-1684758060000",
+          "icon": "Layers",
+          "image": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&q=80&w=600",
+          "title": "Mass Manufacturing for Long-Term Clients",
+          "features": [
+            "Dedicated 24/7 production lines",
+            "Guaranteed capacity and supply chain reliability",
+            "Competitive pricing through economies of scale",
+            "Seamless integration with client's operations",
+            "Proactive quality control and continuous improvement"
+          ],
+          "description": "For high-volume aerospace clients, we'll set up dedicated 24/7 production lines with our CNC machines to deliver large quantities of brass components at the lowest possible cost. Our streamlined processes and global footprint ensure reliability and scalability to meet your growing needs."
+        },
+        {
+          "id": "service-1684758120000",
+          "icon": "Thermometer",
+          "image": "https://images.unsplash.com/photo-1554290712-e640351074bd?auto=format&fit=crop&q=80&w=600",
+          "title": "Brass Extrusion and Value-Added Processing",
+          "features": [
+            "Seamless integration of extrusion and machining",
+            "Specialized brass alloy formulations",
+            "Advanced quality control and testing",
+            "Strict adherence to aerospace standards",
+            "Responsive project management and customer support"
+          ],
+          "description": "In addition to precision CNC manufacturing, Tera Brass offers comprehensive brass extrusion and value-added processing services. From custom profiles to complex machined components, we can handle your entire brass product lifecycle with unparalleled quality and efficiency."
+        }
+      ],
+      "title": "Our Services",
+      "enabled": true
+    },
+    "whyChooseUs": {
+      "items": [
+        {
+          "icon": "award",
+          "title": "Industry Experience",
+          "description": "Years of experience in delivering high-quality solutions to our clients."
+        },
+        {
+          "icon": "target",
+          "title": "Customer Focus",
+          "description": "We prioritize our customers' needs and work closely with them to achieve their goals."
+        },
+        {
+          "icon": "settings",
+          "title": "Advanced Technology",
+          "description": "We use cutting-edge technology and modern equipment to ensure superior results."
+        },
+        {
+          "icon": "handshake",
+          "title": "Reliable Partnership",
+          "description": "We build long-term relationships with our clients based on trust and reliability."
+        }
+      ],
+      "title": "Why Choose Tera Brass",
+      "enabled": true
+    },
+    "testimonials": {
+      "items": [
+        {
+          "text": "Tera Brass has been a reliable and trusted partner for our aerospace component needs. Their commitment to quality and on-time delivery has been instrumental in the success of our projects.",
+          "author": "Priya Sharma",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+          "company": "Aerospace Innovations",
+          "position": "Procurement Manager"
+        },
+        {
+          "text": "Working with Tera Brass has been a seamless experience. Their attention to detail, innovative solutions, and responsive customer service make them a valuable asset to our supply chain.",
+          "author": "Rajesh Patel",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+          "company": "Precision Parts Manufacturers",
+          "position": "Production Director"
+        }
+      ],
+      "title": "What Our Clients Say",
+      "enabled": true
     }
   },
   "navigation": {
@@ -46,12 +234,12 @@
         "text": "Home"
       },
       {
-        "link": "#services",
-        "text": "Services"
+        "link": "#about",
+        "text": "About"
       },
       {
-        "link": "#products",
-        "text": "Products"
+        "link": "#features",
+        "text": "Features"
       },
       {
         "link": "#contact",
@@ -61,376 +249,33 @@
         "link": "#request-quote",
         "text": "Request Quote"
       }
-    ]
-  },
-  "sections": {
-    "hero": {
-      "enabled": true,
-      "headline": "Welcome to Om Extrusion  Manufacturer of Aluminum Profiles",
-      "primaryCTA": {
-        "link": "#request-quote",
-        "text": "Get Quote"
-      },
-      "subheadline": "Delivering Precision and Innovation in Aluminum Extrusion",
-      "secondaryCTA": {
-        "link": "#services",
-        "text": "Our Services"
-      },
-      "backgroundImage": "https://c8.alamy.com/comp/FGNBH1/aluminum-extrusion-manufacturing-line-FGNBH1.jpg"
-    },
-    "about": {
-      "stats": [
-        {
-          "label": "Years Experience",
-          "number": "90+"
-        },
-        {
-          "label": "Projects Completed",
-          "number": "600+"
-        },
-        {
-          "label": "Success Rate",
-          "number": "99.9%"
-        },
-        {
-          "label": "Support",
-          "number": "24/7"
-        }
-      ],
-      "title": "About Om Extrusion",
-      "enabled": true,
-      "description": "Om Extrusion is a distinguished manufacturer specializing in high-quality aluminum extrusion profiles. With a focus on precision and innovation, we cater to diverse industries such as construction, electrical, automotive, and industrial applications. Our commitment to excellence, quality assurance, and timely delivery positions us as a trusted partner in the global aluminum extrusion market."
-    },
-    "features": {
-      "items": [
-        {
-          "icon": "check",
-          "title": "Quality Assurance",
-          "description": "We adhere to rigorous quality standards ensuring that every product meets precise specifications and customer expectations."
-        },
-        {
-          "icon": "clock",
-          "title": "Timely Delivery",
-          "description": "Our efficient production processes and logistics guarantee that your orders are delivered on time, every time."
-        },
-        {
-          "icon": "shield",
-          "title": "Professional Standards",
-          "description": "We operate with high professional standards, ensuring that our manufacturing practices align with industry best practices."
-        },
-        {
-          "icon": "users",
-          "title": "Expert Team",
-          "description": "Our skilled workforce is dedicated to delivering innovative solutions and exceptional customer service."
-        }
-      ],
-      "title": "Why Choose Om Extrusion",
-      "enabled": true
-    },
-    "services": {
-      "items": [
-        {
-          "image": "https://c8.alamy.com/comp/FGNBH1/aluminum-extrusion-manufacturing-line-FGNBH1.jpg",
-          "title": "Aluminum Profile Extrusion",
-          "features": [
-            "Wide range of profile shapes (solid, hollow, complex)",
-            "High dimensional accuracy",
-            "Custom dies for OEM requirements",
-            "Alloy options (6061, 6063, etc.)"
-          ],
-          "description": "At Om Extrusion, we specialize in the manufacturing of both custom and standard aluminum profiles utilizing advanced extrusion processes tailored for various industrial and commercial applications."
-        },
-        {
-          "image": "https://source.unsplash.com/featured/?finishing,coating",
-          "title": "Surface Finishing & Coating",
-          "features": [
-            "Durable and aesthetic finishes",
-            "Wide color options for powder coating",
-            "Matt, glossy, or brushed textures"
-          ],
-          "description": "We offer comprehensive post-extrusion finishing services, including anodizing, powder coating, polishing, and brushing to enhance both the aesthetic appeal and corrosion resistance of our aluminum profiles."
-        }
-      ],
-      "title": "Our Services",
-      "enabled": true
-    },
-    "products": {
-      "title": "Our Products",
-      "enabled": true,
-      "subtitle": "Quality products for your needs",
-      "categories": [
-        {
-          "name": "Architectural Profiles",
-          "description": "Aluminum sections designed for use in windows, doors, partitions, curtain walls, glazing, and other architectural systems, emphasizing both aesthetic appeal and structural integrity.",
-          "productCount": 3
-        },
-        {
-          "name": "Electrical & Electronics Profiles",
-          "description": "Precision extrusions specifically designed for electrical enclosures, busbars, heat sinks, and electronic chassis, ensuring optimal thermal efficiency and electrical conductivity.",
-          "productCount": 6
-        }
-      ]
-    },
-    "whyChooseUs": {
-      "title": "Why Choose Om Extrusion",
-      "points": [
-        {
-          "image": "https://source.unsplash.com/featured/?expertise,manufacturing",
-          "title": "Industry Expertise",
-          "description": "Specific expertise in Manufacturing"
-        },
-        {
-          "image": "https://source.unsplash.com/featured/?success,results",
-          "title": "Proven Results",
-          "description": "Track record of success and customer satisfaction"
-        }
-      ],
-      "enabled": true,
-      "subtitle": "The advantages of working with us"
-    },
-    "gallery": {
-      "title": "Our Work Gallery",
-      "images": [
-        {
-          "alt": "Process",
-          "url": "https://tsvtgoljjzctgdbvvojm.supabase.co/storage/v1/object/public/gallery-images/32d2e0aa-6e65-47a3-9f3c-172026678ef5/8e4e1bdb-6b54-4aa7-a9f1-7de5ad8ab887/1748184583349.jpeg",
-          "caption": "Our process"
-        }
-      ],
-      "enabled": true
-    },
-    "certifications": {
-      "items": [
-        {
-          "name": "ISO 9001:2015",
-          "image": "https://source.unsplash.com/featured/?ISO9001",
-          "description": "Achieved in 2019, this certification underscores our commitment to quality management and has been recognized with multiple awards."
-        },
-        {
-          "name": "Six Sigma",
-          "image": "https://source.unsplash.com/featured/?SixSigma",
-          "description": "We have successfully implemented Six Sigma manufacturing techniques across our plant to enhance efficiency and reduce defects."
-        }
-      ],
-      "title": "Certifications & Standards",
-      "enabled": true
-    },
-    "testimonials": {
-      "items": [
-        {
-          "text": "Om Extrusion has consistently provided us with high-quality products and exceptional service.",
-          "author": "John Doe",
-          "avatar": "https://source.unsplash.com/featured/?avatar",
-          "company": "XYZ Industries",
-          "position": "Director of Operations"
-        }
-      ],
-      "title": "What Our Clients Say",
-      "enabled": true
-    },
-    "quote": {
-      "title": "Request a Quote",
-      "fields": [
-        {
-          "name": "name",
-          "type": "text",
-          "label": "Full Name",
-          "required": true
-        },
-        {
-          "name": "email",
-          "type": "email",
-          "label": "Email Address",
-          "required": true
-        },
-        {
-          "name": "company",
-          "type": "text",
-          "label": "Company",
-          "required": false
-        },
-        {
-          "name": "phone",
-          "type": "tel",
-          "label": "Phone Number",
-          "required": false
-        },
-        {
-          "name": "service",
-          "type": "select",
-          "label": "Service Required",
-          "options": [
-            "Aluminum Profile Extrusion",
-            "Surface Finishing & Coating",
-            "Other"
-          ],
-          "required": true
-        },
-        {
-          "name": "description",
-          "type": "textarea",
-          "label": "Project Description",
-          "required": true
-        }
-      ],
-      "enabled": true,
-      "subtitle": "Get started with your project today",
-      "submitUrl": "/api/send-enquiry"
-    },
-    "contact": {
-      "email": "ramkatarmal5@gmail.com",
-      "hours": {
-        "weekend": "Saturday: 8:00 AM - 2:00 PM",
-        "weekdays": "Monday - Friday: 8:00 AM - 6:00 PM"
-      },
-      "phone": "+91 9016578784",
-      "title": "Get In Touch",
-      "address": {
-        "zip": "360001",
-        "city": "Rajkot",
-        "state": "Gujarat",
-        "street": "Rajkot, Gujarat",
-        "country": "India"
-      },
-      "enabled": true,
-      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.2623!2d-118.2437!3d34.0522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDAzJzA4LjAiTiAxMTjCsDE0JzM3LjAiVw!5e0!3m2!1sen!2sus!4v1234567890",
-      "whatsapp": "+91 9016578784"
-    }
-  },
-  "footer": {
-    "enabled": true,
-    "copyright": "© 2024 Om Extrusion. All rights reserved.",
-    "quickLinks": [
-      {
-        "url": "#services",
-        "text": "Services"
-      },
-      {
-        "url": "#products",
-        "text": "Products"
-      },
-      {
-        "url": "#contact",
-        "text": "Contact"
-      },
-      {
-        "url": "#request-quote",
-        "text": "Request Quote"
-      }
     ],
-    "socialLinks": [
-      {
-        "url": "https://linkedin.com/company/omextrusion",
-        "icon": "linkedin",
-        "platform": "LinkedIn"
-      },
-      {
-        "url": "https://facebook.com/omextrusion",
-        "icon": "facebook",
-        "platform": "Facebook"
-      }
-    ]
+    "style": "glass"
   },
   "sectionsOrder": [
     {
-      "id": "infrastructure-1748184999589",
-      "data": {
-        "items": [
-          {
-            "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=400&h=300&fit=crop",
-            "title": "Manufacturing Facility",
-            "features": [
-              "ISO Certified",
-              "Climate Controlled",
-              "24/7 Operations"
-            ],
-            "description": "50,000 sq ft of modern manufacturing space"
-          }
-        ],
-        "title": "Our Infrastructure",
-        "enabled": true,
-        "subtitle": "State-of-the-art facilities and capabilities"
-      },
-      "type": "infrastructure",
-      "title": "Our Infrastructure",
-      "enabled": true
-    },
-    {
-      "id": "csr-1748185022924",
-      "data": {
-        "title": "Corporate Social Responsibility",
-        "enabled": true,
-        "subtitle": "Our commitment to society and environment",
-        "initiatives": [
-          {
-            "icon": "🌱",
-            "title": "Environmental Sustainability",
-            "impact": "50% reduction in waste",
-            "description": "Reducing our carbon footprint through green practices"
-          }
-        ]
-      },
-      "type": "csr",
-      "title": "CSR",
-      "enabled": true
-    },
-    {
-      "id": "leadership-1748185063457",
-      "data": {
-        "title": "Our Leadership Team",
-        "enabled": true,
-        "members": [
-          {
-            "bio": "20+ years of industry experience",
-            "name": "John Doe",
-            "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
-            "linkedin": "#",
-            "position": "Chief Executive Officer"
-          }
-        ],
-        "subtitle": "Meet the people driving our success"
-      },
-      "type": "leadership",
-      "title": "Leadership Team",
-      "enabled": true
-    },
-    {
-      "id": "awards-1748185082831",
-      "data": {
-        "title": "Awards & Recognition",
-        "awards": [
-          {
-            "year": "2024",
-            "title": "Industry Excellence Award",
-            "description": "Recognized for outstanding performance and innovation",
-            "organization": "Industry Association"
-          }
-        ],
-        "enabled": true,
-        "subtitle": "Celebrating our achievements and milestones"
-      },
-      "type": "awards",
-      "title": "Awards & Recognition",
-      "enabled": true
-    },
-    {
-      "id": "process-1748185128951",
+      "id": "process-1749666973626",
       "data": {
         "steps": [
           {
             "step": 1,
-            "title": "Consultation",
-            "description": "We start by understanding your requirements"
+            "title": "Customized Product Design",
+            "description": "Our team of experienced designers works closely with clients to understand their unique requirements and develop custom brass product designs that meet their specific needs. We leverage advanced CAD software and collaborate with clients to iterate on the design until it is perfect."
           },
           {
             "step": 2,
-            "title": "Planning",
-            "description": "Detailed planning and strategy development"
+            "title": "Precision Manufacturing",
+            "description": "Once the design is finalized, we utilize our state-of-the-art manufacturing facilities and skilled craftsmen to produce the brass products with the utmost precision and attention to detail. Our advanced machinery and quality control processes ensure consistent, high-quality output."
           },
           {
             "step": 3,
-            "title": "Execution",
-            "description": "Flawless execution of the planned strategy"
+            "title": "Rigorous Quality Assurance",
+            "description": "Before shipping, each brass product undergoes a thorough quality inspection to identify and address any defects or issues. Our quality assurance team performs comprehensive testing to validate that the product meets all required specifications and customer expectations."
+          },
+          {
+            "step": 4,
+            "title": "Reliable Delivery",
+            "description": "We prioritize on-time delivery and work closely with our logistics partners to ensure the safe and timely shipment of the brass products to our clients. Our dedicated customer service team provides regular updates and support throughout the delivery process."
           }
         ],
         "title": "Our Process",
@@ -439,118 +284,90 @@
       },
       "type": "process",
       "title": "Our Process",
-      "enabled": true
+      "enabled": true,
+      "showInNavbar": false
     },
     {
-      "id": "technology-1748185145523",
+      "id": "faq-1749666989060",
       "data": {
-        "title": "Technology Stack",
-        "enabled": true,
-        "subtitle": "Cutting-edge technologies we use",
-        "technologies": [
+        "items": [
           {
-            "icon": "⚙️",
-            "name": "Advanced Machinery",
-            "category": "Hardware",
-            "description": "State-of-the-art equipment for precision work"
-          }
-        ]
-      },
-      "type": "technology",
-      "title": "Technology Stack",
-      "enabled": true
-    },
-    {
-      "id": "quality-1748185159738",
-      "data": {
-        "title": "Quality Assurance",
-        "enabled": true,
-        "subtitle": "Our commitment to excellence",
-        "processes": [
+            "answer": "Tera Brass is a leading manufacturer of a wide range of brass products, including brass fittings, valves, decorative hardware, and custom brass components. We have the capability to produce a variety of brass items to meet the diverse needs of our customers.",
+            "question": "What types of brass products do you manufacture?"
+          },
           {
-            "title": "Quality Control",
-            "description": "Rigorous testing at every stage"
+            "answer": "Our manufacturing process involves precision brass casting, machining, and finishing techniques to ensure high-quality products. We utilize state-of-the-art equipment and follow strict quality control measures throughout the production cycle. Our experienced team of engineers and technicians work diligently to maintain efficient and reliable operations.",
+            "question": "What is your production process like?"
+          },
+          {
+            "answer": "Absolutely! Tera Brass specializes in custom brass manufacturing. We work closely with our clients to understand their unique requirements and design specifications, and then develop tailored solutions to meet their needs. Our flexibility and attention to detail allow us to produce custom brass components of any size or complexity.",
+            "question": "Can you provide custom brass manufacturing services?"
+          },
+          {
+            "answer": "Quality is our top priority at Tera Brass. We have implemented a comprehensive quality management system that includes rigorous testing and inspection at every stage of the manufacturing process. Our in-house quality control team closely monitors production to ensure compliance with industry standards and customer specifications. We are also ISO 9001 certified, demonstrating our commitment to delivering consistent, high-quality brass products.",
+            "question": "How do you ensure the quality of your brass products?"
+          },
+          {
+            "answer": "Our lead times and pricing can vary depending on the complexity of the project, the quantity of products required, and the materials used. We strive to provide competitive and transparent pricing while maintaining our high-quality standards. Our sales team will work with you to provide a detailed quote and estimated delivery timeline based on your specific requirements. We are committed to offering reliable and cost-effective brass manufacturing solutions.",
+            "question": "What are your lead times and pricing for brass manufacturing services?"
+          },
+          {
+            "answer": "Yes, we understand the importance of providing excellent customer support. Our team is dedicated to ensuring your satisfaction with our products and services. We offer technical support, product maintenance guidance, and responsive after-sales assistance. If you have any questions or concerns, please don't hesitate to reach out to our customer service team, and we'll be happy to address your needs.",
+            "question": "Do you offer any support or after-sales services?"
           }
         ],
-        "certifications": [
-          {
-            "name": "ISO 9001:2015",
-            "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=150&h=150&fit=crop",
-            "description": "Quality Management System"
-          }
-        ]
-      },
-      "type": "quality",
-      "title": "Quality Assurance",
-      "enabled": true
-    },
-    {
-      "id": "environment-1748185165110",
-      "data": {
-        "title": "Environmental Commitment",
-        "enabled": true,
-        "subtitle": "Building a sustainable future",
-        "commitments": [
-          {
-            "icon": "🌍",
-            "title": "Carbon Neutral Operations",
-            "progress": 75,
-            "description": "Committed to achieving carbon neutrality by 2030"
-          }
-        ]
-      },
-      "type": "environment",
-      "title": "Environmental Commitment",
-      "enabled": true
-    },
-    {
-      "id": "faq-1748185180566",
-      "data": {
         "title": "Frequently Asked Questions",
         "enabled": true,
-        "subtitle": "Find answers to common questions",
-        "questions": [
-          {
-            "answer": "We offer a comprehensive range of services tailored to meet your needs.",
-            "question": "What services do you offer?"
-          }
-        ]
+        "subtitle": "Common questions about our manufacturing services"
       },
       "type": "faq",
-      "title": "FAQ",
-      "enabled": true
+      "title": "Frequently Asked Questions",
+      "enabled": true,
+      "showInNavbar": false
     },
     {
-      "id": "news-1748185190360",
+      "id": "infrastructure-1749667021515",
       "data": {
-        "title": "Latest News & Updates",
-        "enabled": false,
-        "articles": [],
-        "subtitle": "Stay updated with our latest developments"
-      },
-      "type": "news",
-      "title": "News & Updates",
-      "enabled": true
-    },
-    {
-      "id": "download-catalog-1748186217142",
-      "data": {
-        "title": "Download Our Catalogs",
-        "enabled": true,
-        "catalogs": [
+        "items": [
           {
-            "name": "Product Catalog 2024",
-            "fileUrl": "https://example.com/catalog.pdf",
-            "fileSize": "2.5 MB",
-            "fileType": "PDF",
-            "description": "Complete product catalog with specifications and pricing"
+            "title": "Brass Casting Facility",
+            "features": [
+              "10,000 sq ft production area",
+              "Automated brass casting machines with +/- 0.1mm tolerance",
+              "Specialized temperature control systems for precise melting and cooling",
+              "Dedicated quality control laboratory"
+            ],
+            "description": "Our state-of-the-art brass casting facility is equipped with high-precision casting equipment and cutting-edge temperature control systems. This facility allows us to produce a wide range of brass components with exceptional quality and consistency."
+          },
+          {
+            "title": "Machining and Finishing Center",
+            "features": [
+              "20,000 sq ft production area",
+              "Multiple CNC lathes, mills, and grinding machines",
+              "Automated deburring and polishing systems",
+              "Dedicated inspection and metrology lab"
+            ],
+            "description": "The Machining and Finishing Center is equipped with advanced CNC machines and specialized finishing equipment. This facility enables us to perform complex machining operations and apply high-quality finishes to our brass products."
+          },
+          {
+            "title": "Warehouse and Logistics Hub",
+            "features": [
+              "50,000 sq ft storage capacity",
+              "Automated storage and retrieval systems",
+              "Temperature and humidity-controlled storage areas",
+              "Dedicated shipping and receiving docks"
+            ],
+            "description": "Our centralized warehouse and logistics hub ensures efficient storage, handling, and distribution of our brass products. This facility is designed to maintain optimal environmental conditions and facilitate seamless supply chain operations."
           }
         ],
-        "subtitle": "Get detailed information about our products and services"
+        "title": "Infrastructure & Facilities",
+        "enabled": true,
+        "subtitle": "Modern facilities supporting our operations"
       },
-      "type": "download-catalog",
-      "title": "Download Catalog",
-      "enabled": true
+      "type": "infrastructure",
+      "title": "Infrastructure & Facilities",
+      "enabled": true,
+      "showInNavbar": false
     }
   ]
 }
